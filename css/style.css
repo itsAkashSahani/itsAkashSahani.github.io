@@ -324,7 +324,8 @@ button:focus {
       align-self: center;
       text-align: left; }
       .home_banner_area .banner_inner .banner_content .media .d-flex {
-        padding-right: 125px; }
+        padding-left: 25px;
+        padding-right: 100px; }
       .home_banner_area .banner_inner .banner_content .media .media-body {
         vertical-align: middle;
         align-self: center; }
@@ -2546,6 +2547,43 @@ h6 {
         background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
         background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
 
+
+.techstack {
+  background: #f9f9ff;
+}
+
+.techstack .row {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+}
+
+.techstack .tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  padding: 20px 10px;
+  overflow: hidden;
+  background: #f9f9ff;
+  border-radius: 10px;
+  transition: all 300ms linear 0s;
+  border: 1px solid #fff;
+}
+
+.techstack .tech img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.tech:hover {
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+  border-color: #f9f9ff;
+  background: #fff;
+}
+
 /* End Welcome Area css
 ============================================================================================ */
 /* My Tabs Area css
@@ -2578,7 +2616,7 @@ h6 {
         background: #fff;
         color: #222222; }
 .tabs_inner .tab-content .tab-pane .list {
-  max-width: 460px;
+  max-width: 750px;
   margin: auto;
   position: relative;
   padding-top: 40px;
@@ -2589,10 +2627,10 @@ h6 {
     width: 5px;
     background: rgba(255, 255, 255, 0.2);
     position: absolute;
-    left: 46%;
+    left: 50%;
     transform: translateX(-50%);
     top: -5px; }
-  .tabs_inner .tab-content .tab-pane .list li {
+  .tabs_inner .tab-content .tab-pane .list li.list-node {
     margin-bottom: 60px;
     position: relative; }
     .tabs_inner .tab-content .tab-pane .list li span {
@@ -2602,7 +2640,7 @@ h6 {
       display: block;
       background: rgba(255, 255, 255, 0.2);
       position: absolute;
-      left: 46%;
+      left: 50%;
       top: 30px;
       transform: translateX(-50%); }
       .tabs_inner .tab-content .tab-pane .list li span:before {
@@ -2618,19 +2656,34 @@ h6 {
     .tabs_inner .tab-content .tab-pane .list li:last-child {
       margin-bottom: 0px; }
     .tabs_inner .tab-content .tab-pane .list li .media .d-flex {
-      padding-right: 100px; }
+      text-align: center; }
       .tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
+        width: 100%;
+        font-size: 20px;
         color: rgba(255, 255, 255, 0.75);
         margin-bottom: 0px;
-        padding-top: 20px; }
+        text-transform: uppercase;
+        padding-top: 21px; }
+
+    .tabs_inner .tab-content .tab-pane .list li .media .media-body {
+      padding: 20px;
+      background: #f9f9ff;
+      border-radius: 10px; }
+
+    .tabs_inner .tab-content .tab-pane .list li .media .right-side {
+      margin-left: 30px; }
+
+    .tabs_inner .tab-content .tab-pane .list li .media .left-side {
+      margin-right: 30px; }
+
     .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
-      color: #fff;
+      color: #222222;
       font-size: 21px;
       text-transform: uppercase;
-      margin-bottom: 20px; }
+      margin-bottom: 10px; }
     .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
-      color: rgba(255, 255, 255, 0.75);
-      margin-bottom: 0px; }
+      color: #222222;
+      margin-bottom: 15px; }
 
 /* End My Tabs Area css
 ============================================================================================ */
