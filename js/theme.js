@@ -226,6 +226,7 @@
         panControl: true,
         disableDoubleClickZoom: true,
         mapTypeControl: false,
+        center: {lat: $markerLat, lng: $markerLon},
         zoom: $zoom,
             styles: [
                 {

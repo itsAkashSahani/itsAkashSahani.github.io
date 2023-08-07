@@ -44,6 +44,9 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+
+html{scroll-behavior:smooth}
+
 .list {
   list-style: none;
   margin: 0px;
@@ -2490,6 +2493,7 @@ h6 {
   text-transform: uppercase; }
 .welcome_text p {
   max-width: 495px;
+  text-align: justify;
   font-family: "Roboto", sans-serif;
   margin-bottom: 40px; }
 
@@ -2616,7 +2620,7 @@ h6 {
         background: #fff;
         color: #222222; }
 .tabs_inner .tab-content .tab-pane .list {
-  max-width: 750px;
+  max-width: 800px;
   margin: auto;
   position: relative;
   padding-top: 40px;
@@ -2849,9 +2853,11 @@ h6 {
   display: inline-block;
   margin-bottom: 45px; }
   .h_gallery_item .g_img_item {
+    padding: 20px;
     position: relative;
     text-align: center;
     overflow: hidden;
+    cursor: pointer;
     border-radius: 5px; }
     .h_gallery_item .g_img_item:before {
       content: "";
