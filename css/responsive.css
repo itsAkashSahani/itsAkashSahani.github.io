@@ -420,18 +420,37 @@
 	}
 	/* End Blog Page Area css
 	============================================================================================ */
+	.tabs_inner .tab-content .tab-pane .list {
+		width: 100%;
+	}
 	.tabs_inner .tab-content .tab-pane .list::before {
-		display: none;
+		display: block;
 	}
 	.tabs_inner .tab-content .tab-pane .list li .media .d-flex {
 		padding-right: 0px;
 		padding-bottom: 18px;
 	}
 	.tabs_inner .tab-content .tab-pane .list li .media {
-		display: block;
+		/* display: block; */
+		flex-direction: row;
+	}
+	.tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
+		font-size: 10px;
 	}
 	.tabs_inner .tab-content .tab-pane .list li span {
-		display: none;
+		display: block;
+	}
+	.tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
+		line-height: 12px;
+		font-size: 10px;
+	}
+	.tabs_inner .tab-content .tab-pane .list li .media .media-body ul {
+		padding-left: 8px;
+		line-height: 12px;
+	}
+	.tabs_inner .tab-content .tab-pane .list li .media .media-body p, .tabs_inner .tab-content .tab-pane .list li .media .media-body ul li {
+		font-size: 8px;
+		line-height: 12px;
 	}
 	.tabs_inner .nav.nav-tabs {
 		margin-bottom: 0px;
