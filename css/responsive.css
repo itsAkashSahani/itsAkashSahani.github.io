@@ -458,4 +458,8 @@
 	.isotope_fillter .gallery_filter li {
 		margin-right: 17px;
 	}
+
+	.h_gallery_item .g_item_text h4 {
+		font-size: 14px;
+	}
 }
